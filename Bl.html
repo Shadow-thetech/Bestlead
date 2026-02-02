@@ -1,0 +1,1659 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BEST LEAD Private School - Excellence in Education Since 2018. Quality education in a nurturing, colorful environment.">
+    <meta name="keywords" content="private school, education, best lead, learning, children, quality education">
+    <meta name="author" content="BEST LEAD Private School">
+    <title>BEST LEAD Private School - Where Young Minds Flourish</title>
+    <style>
+        /* ========== RESET & BASE STYLES ========== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* ========== CONTAINER ========== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ========== HEADER ========== */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .school-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .enroll-btn {
+            background: #e91e63;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+        }
+
+        .enroll-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(233, 30, 99, 0.4);
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            background: linear-gradient(135deg, #a8b9ff 0%, #e4a8ff 100%);
+            padding: 100px 20px;
+            text-align: center;
+            border-radius: 20px;
+            margin: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('images/hero-bg.jpg') center/cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+            color: #fff;
+            font-weight: 800;
+            line-height: 1.2;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-content p {
+            font-size: 22px;
+            margin-bottom: 40px;
+            color: #fff;
+            font-weight: 400;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: #2962ff;
+            color: white;
+            padding: 18px 45px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(41, 98, 255, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: #1e4fd9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(41, 98, 255, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 18px 45px;
+            border: 2px solid white;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        /* ========== ABOUT SECTION ========== */
+        .about {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .about-image {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .about-image:hover {
+            transform: scale(1.02);
+        }
+
+        .mission-vision {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .mission,
+        .vision {
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 5px solid;
+            transition: all 0.3s ease;
+        }
+
+        .mission {
+            border-left-color: #2962ff;
+            background: #e3f2fd;
+        }
+
+        .mission:hover {
+            box-shadow: 0 5px 20px rgba(41, 98, 255, 0.2);
+            transform: translateX(5px);
+        }
+
+        .vision {
+            border-left-color: #e91e63;
+            background: #fce4ec;
+        }
+
+        .vision:hover {
+            box-shadow: 0 5px 20px rgba(233, 30, 99, 0.2);
+            transform: translateX(5px);
+        }
+
+        .mission h2,
+        .vision h2 {
+            margin-bottom: 15px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .mission p,
+        .vision p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* ========== SECTION TITLE ========== */
+        .section-title {
+            text-align: center;
+            font-size: 46px;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 800;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 50px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* ========== PROGRAMS SECTION ========== */
+        .programs {
+            padding: 80px 20px;
+            background: #f5f5f5;
+        }
+
+        .program-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .program-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .program-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .program-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .icon-blue {
+            background: #e3f2fd;
+            color: #2962ff;
+        }
+
+        .icon-pink {
+            background: #fce4ec;
+            color: #e91e63;
+        }
+
+        .icon-purple {
+            background: #f3e5f5;
+            color: #9c27b0;
+        }
+
+        .program-card h3 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .program-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .program-card img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .program-details {
+            margin-top: 60px;
+        }
+
+        .program-detail-card {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .program-detail-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .program-detail-card img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .program-detail-card .age-badge {
+            display: inline-block;
+            background: #2962ff;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .program-detail-card h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .program-detail-card > p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .program-detail-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .program-detail-card ul li {
+            padding: 10px 0;
+            font-size: 16px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .program-detail-card ul li:before {
+            content: "●";
+            color: #2962ff;
+            font-size: 20px;
+        }
+
+        /* ========== COMMITMENT SECTION ========== */
+        .commitment {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .commitment-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .commitment-image {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .commitment-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .commitment-item {
+            display: flex;
+            align-items: start;
+            gap: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .commitment-item:hover {
+            background: #f5f5f5;
+            transform: translateX(10px);
+        }
+
+        .commitment-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .commitment-icon.blue {
+            background: #e3f2fd;
+            color: #2962ff;
+        }
+
+        .commitment-icon.pink {
+            background: #fce4ec;
+            color: #e91e63;
+        }
+
+        .commitment-icon.purple {
+            background: #f3e5f5;
+            color: #9c27b0;
+        }
+
+        .commitment-text h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .commitment-text p {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* ========== RULES SECTION ========== */
+        .rules {
+            padding: 80px 20px;
+            background: #f5f5f5;
+        }
+
+        .rules-intro {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 50px;
+            color: #666;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+
+        .rules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .rule-category {
+            padding: 40px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .rule-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .rule-category img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .student-rules {
+            background: #e3f2fd;
+        }
+
+        .teacher-rules {
+            background: #fce4ec;
+        }
+
+        .parent-rules {
+            background: #f3e5f5;
+        }
+
+        .rule-category h3 {
+            font-size: 26px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .rule-category ul {
+            list-style: none;
+        }
+
+        .rule-category li {
+            padding: 12px 0;
+            display: flex;
+            align-items: start;
+            gap: 12px;
+            font-size: 15px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .rule-category li:before {
+            content: "●";
+            color: #2962ff;
+            font-size: 20px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .teacher-rules li:before {
+            color: #e91e63;
+        }
+
+        .parent-rules li:before {
+            color: #9c27b0;
+        }
+
+        /* ========== TESTIMONIALS SECTION ========== */
+        .testimonials {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #fce4ec 100%);
+        }
+
+        .testimonials-intro {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 50px;
+            color: #666;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .author-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2962ff;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .author-info h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .author-info p {
+            color: #2962ff;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .testimonial-text {
+            color: #666;
+            font-style: italic;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        /* ========== STATS SECTION ========== */
+        .stats {
+            padding: 80px 20px;
+            background: white;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .stat-item {
+            padding: 30px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-item h3 {
+            font-size: 60px;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .stat-item p {
+            font-size: 18px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .stat-blue {
+            color: #2962ff;
+        }
+
+        .stat-pink {
+            color: #e91e63;
+        }
+
+        .stat-purple {
+            color: #9c27b0;
+        }
+
+        .stat-orange {
+            color: #ff6f00;
+        }
+
+        /* ========== SCHOOL INFO SECTION ========== */
+        .school-info {
+            background: #f5f5f5;
+            padding: 80px 20px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .info-image {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .info-details {
+            padding: 20px;
+        }
+
+        .info-details h2 {
+            font-size: 40px;
+            margin-bottom: 35px;
+            color: #333;
+            font-weight: 800;
+        }
+
+        .info-item {
+            margin: 25px 0;
+            font-size: 18px;
+            display: flex;
+            align-items: start;
+            gap: 15px;
+        }
+
+        .info-item strong {
+            color: #2962ff;
+            font-weight: 700;
+            min-width: 150px;
+        }
+
+        .info-details > p {
+            margin-top: 35px;
+            font-size: 16px;
+            color: #666;
+            line-height: 1.9;
+        }
+
+        /* ========== FACILITIES SECTION ========== */
+        .facilities {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .facilities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .facility-card {
+            background: #f5f5f5;
+            padding: 35px;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .facility-card:hover {
+            background: white;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .facility-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .facility-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .facility-card p {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        /* ========== CONTACT SECTION ========== */
+        .contact {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .contact-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-info {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 50px;
+            border-radius: 20px;
+            margin: 50px 0;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            font-size: 18px;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .contact-item strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .contact-cta {
+            margin-top: 50px;
+        }
+
+        .contact-cta h2 {
+            font-size: 46px;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .contact-cta p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.7;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 60px 20px 30px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 20px;
+            color: #e91e63;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            transition: all 0.3s ease;
+            font-size: 15px;
+        }
+
+        .footer-section a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+
+        .footer-about p {
+            color: #ccc;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+
+        .footer-bottom p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        /* ========== SCROLL TO TOP BUTTON ========== */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #e91e63;
+            color: white;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+            box-shadow: 0 4px 15px rgba(233, 30, 99, 0.4);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top:hover {
+            background: #c2185b;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(233, 30, 99, 0.5);
+        }
+
+        /* ========== RESPONSIVE DESIGN ========== */
+        @media (max-width: 768px) {
+            .about-content,
+            .info-grid,
+            .commitment-content {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content h1 {
+                font-size: 36px;
+            }
+
+            .hero-content p {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .school-name {
+                font-size: 20px;
+            }
+
+            .program-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .rules-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .facilities-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .commitment-content {
+                grid-template-columns: 1fr;
+            }
+
+            .btn-primary,
+            .btn-secondary {
+                padding: 15px 35px;
+                font-size: 16px;
+            }
+
+            .contact-cta h2 {
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 28px;
+            }
+
+            .hero-content p {
+                font-size: 16px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .school-name {
+                font-size: 16px;
+            }
+
+            .stat-item h3 {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <!-- REPLACE WITH YOUR LOGO IMAGE -->
+                <!-- <img src="images/logo.png" alt="BEST LEAD Private School Logo"> -->
+                <!-- OR keep the text logo below -->
+                <div class="logo-icon">BL</div>
+                <div class="school-name">BEST LEAD Private School</div>
+            </div>
+            <a href="#contact" class="enroll-btn">Enroll Now</a>
+        </div>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Where Young Minds Flourish</h1>
+            <p>Excellence in Education Since 2018 - Nurturing Tomorrow's Leaders Today</p>
+            <div class="cta-buttons">
+                <a href="#programs" class="btn-primary">Explore Programs</a>
+                <a href="#contact" class="btn-secondary">Schedule a Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About BEST LEAD</h2>
+            <p class="section-subtitle">A trusted educational institution committed to nurturing young minds in a safe, colorful, and engaging environment.</p>
+            
+            <div class="about-content">
+                <div>
+                    <!-- REPLACE WITH YOUR SCHOOL IMAGE -->
+                    <img src="images/school-building.jpg" alt="BEST LEAD School Building" class="about-image">
+                </div>
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h2>Our Mission</h2>
+                        <p>To provide quality education that develops the intellectual, emotional, and social capabilities of every child, preparing them for a successful future in an ever-changing world.</p>
+                    </div>
+                    <div class="vision">
+                        <h2>Our Vision</h2>
+                        <p>To be recognized as a leading educational institution that transforms lives through innovative teaching methods, character development, and a commitment to excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROGRAMS SECTION ========== -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 class="section-title">Our Programs</h2>
+            <p class="section-subtitle">Comprehensive educational programs designed to meet the unique needs of every child at different stages of development.</p>
+            
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="program-icon icon-blue">🎨</div>
+                    <h3>Preschool</h3>
+                    <p>Ages 3-5: Foundation building through play-based learning and creative exploration.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon icon-pink">📚</div>
+                    <h3>Elementary</h3>
+                    <p>Ages 6-11: Core academic skills with focus on critical thinking and problem-solving.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon icon-purple">🎓</div>
+                    <h3>After School</h3>
+                    <p>Extended learning programs including arts, sports, and academic enrichment.</p>
+                </div>
+            </div>
+
+            <div class="program-details">
+                <div class="program-detail-card">
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/preschool.jpg" alt="Preschool Program">
+                    <span class="age-badge">Ages 3-5</span>
+                    <h2>Preschool Program</h2>
+                    <p>Our preschool program provides a nurturing environment where young learners develop essential skills through play, exploration, and structured activities.</p>
+                    <h3>What We Offer:</h3>
+                    <ul>
+                        <li>Play-based learning approach</li>
+                        <li>Early literacy and numeracy skills</li>
+                        <li>Social and emotional development</li>
+                        <li>Creative arts and music</li>
+                        <li>Physical development activities</li>
+                        <li>Safe and colorful learning spaces</li>
+                    </ul>
+                </div>
+
+                <div class="program-detail-card">
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/elementary.jpg" alt="Elementary Program">
+                    <span class="age-badge">Ages 6-11</span>
+                    <h2>Elementary Program</h2>
+                    <p>Our elementary program builds strong academic foundations while fostering curiosity, creativity, and a love for learning.</p>
+                    <h3>Curriculum Highlights:</h3>
+                    <ul>
+                        <li>Comprehensive academic curriculum</li>
+                        <li>STEM education and hands-on projects</li>
+                        <li>Language arts and communication skills</li>
+                        <li>Mathematics and problem-solving</li>
+                        <li>Science exploration and discovery</li>
+                        <li>Social studies and cultural awareness</li>
+                        <li>Physical education and sports</li>
+                        <li>Arts, music, and creative expression</li>
+                    </ul>
+                </div>
+
+                <div class="program-detail-card">
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/afterschool.jpg" alt="After School Program">
+                    <span class="age-badge">All Ages</span>
+                    <h2>After School Program</h2>
+                    <p>Extended learning opportunities that complement our core curriculum with enrichment activities and supervised care.</p>
+                    <h3>Program Features:</h3>
+                    <ul>
+                        <li>Homework assistance and tutoring</li>
+                        <li>Sports and physical activities</li>
+                        <li>Arts and crafts workshops</li>
+                        <li>Music and performing arts</li>
+                        <li>STEM clubs and robotics</li>
+                        <li>Language learning opportunities</li>
+                        <li>Healthy snacks provided</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== COMMITMENT SECTION ========== -->
+    <section class="commitment" id="commitment">
+        <div class="container">
+            <h2 class="section-title">Our Commitment</h2>
+            <p class="section-subtitle">We are dedicated to providing an exceptional educational experience that goes beyond academics.</p>
+            
+            <div class="commitment-content">
+                <div>
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/commitment.jpg" alt="Our Commitment" class="commitment-image">
+                </div>
+                <div class="commitment-list">
+                    <div class="commitment-item">
+                        <div class="commitment-icon blue">🎯</div>
+                        <div class="commitment-text">
+                            <h3>Quality Education</h3>
+                            <p>Delivering excellence through innovative teaching methods, qualified educators, and a comprehensive curriculum that meets international standards.</p>
+                        </div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-icon pink">❤️</div>
+                        <div class="commitment-text">
+                            <h3>Safe Environment</h3>
+                            <p>Maintaining a secure, clean, and welcoming space where children feel protected, valued, and free to explore and learn.</p>
+                        </div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-icon purple">🌟</div>
+                        <div class="commitment-text">
+                            <h3>Individual Attention</h3>
+                            <p>Recognizing each child's unique needs, learning style, and potential, with personalized support and guidance.</p>
+                        </div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-icon blue">🤝</div>
+                        <div class="commitment-text">
+                            <h3>Parent Partnership</h3>
+                            <p>Building strong relationships with families through open communication, regular updates, and collaborative involvement in education.</p>
+                        </div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-icon pink">🌈</div>
+                        <div class="commitment-text">
+                            <h3>Holistic Development</h3>
+                            <p>Nurturing academic, social, emotional, and physical growth to develop well-rounded individuals ready for future challenges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RULES SECTION ========== -->
+    <section class="rules" id="rules">
+        <div class="container">
+            <h2 class="section-title">Our Guidelines</h2>
+            <p class="rules-intro">Clear expectations and guidelines help create a positive learning environment where everyone can thrive. Here are the important rules and responsibilities for our school community.</p>
+            
+            <div class="rules-grid">
+                <div class="rule-category student-rules">
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/students.jpg" alt="Student Guidelines">
+                    <h3>📖 Student Guidelines</h3>
+                    <ul>
+                        <li>Arrive on time and be prepared for class</li>
+                        <li>Treat teachers, staff, and classmates with respect</li>
+                        <li>Complete homework and assignments on time</li>
+                        <li>Follow classroom and school rules</li>
+                        <li>Take care of school property and materials</li>
+                        <li>Use appropriate language at all times</li>
+                        <li>Wear proper school uniform</li>
+                        <li>Participate actively in class activities</li>
+                        <li>Keep the school clean and organized</li>
+                        <li>Report any concerns to teachers or staff</li>
+                    </ul>
+                </div>
+
+                <div class="rule-category teacher-rules">
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/teachers.jpg" alt="Teacher Responsibilities">
+                    <h3>👨‍🏫 Teacher Responsibilities</h3>
+                    <ul>
+                        <li>Create a safe and inclusive learning environment</li>
+                        <li>Prepare engaging and effective lesson plans</li>
+                        <li>Treat all students fairly and with respect</li>
+                        <li>Provide timely feedback on student progress</li>
+                        <li>Maintain open communication with parents</li>
+                        <li>Continue professional development</li>
+                        <li>Follow school policies and procedures</li>
+                        <li>Monitor student attendance and behavior</li>
+                        <li>Support students' individual learning needs</li>
+                        <li>Maintain confidentiality of student information</li>
+                    </ul>
+                </div>
+
+                <div class="rule-category parent-rules">
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/parents.jpg" alt="Parent Partnership">
+                    <h3>👨‍👩‍👧 Parent Partnership</h3>
+                    <ul>
+                        <li>Ensure children arrive on time daily</li>
+                        <li>Support homework completion at home</li>
+                        <li>Attend parent-teacher meetings</li>
+                        <li>Communicate concerns promptly with teachers</li>
+                        <li>Ensure proper school uniform and supplies</li>
+                        <li>Inform school of absences in advance</li>
+                        <li>Support school rules and policies</li>
+                        <li>Participate in school events when possible</li>
+                        <li>Provide emergency contact information</li>
+                        <li>Pay fees and tuition on time</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS SECTION ========== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Parents Say</h2>
+            <p class="testimonials-intro">Hear from families who have experienced the BEST LEAD difference.</p>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-author">
+                        <!-- REPLACE WITH ACTUAL IMAGES -->
+                        <img src="images/parent1.jpg" alt="Parent testimonial" class="author-image">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Parent of Emma, Grade 3</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"BEST LEAD has been a blessing for our family. The teachers are caring and dedicated, and Emma has grown so much academically and socially. We couldn't be happier with our choice!"</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-author">
+                        <img src="images/parent2.jpg" alt="Parent testimonial" class="author-image">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Parent of Lucas, Preschool</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The preschool program is outstanding! Lucas loves going to school every day. The staff creates such a warm, nurturing environment that makes learning fun and engaging."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-author">
+                        <img src="images/parent3.jpg" alt="Parent testimonial" class="author-image">
+                        <div class="author-info">
+                            <h4>Priya Patel</h4>
+                            <p>Parent of Aarav, Grade 5</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The attention to individual student needs is remarkable. Aarav receives the support he needs to excel, and the communication with teachers is excellent. Highly recommended!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STATS SECTION ========== -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <h2 class="section-title">Our Impact</h2>
+            <p class="section-subtitle">Numbers that reflect our commitment to excellence and community.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-blue">500+</h3>
+                    <p>Happy Students</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-pink">50+</h3>
+                    <p>Qualified Teachers</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-purple">7</h3>
+                    <p>Years of Excellence</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-orange">95%</h3>
+                    <p>Parent Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SCHOOL INFO SECTION ========== -->
+    <section class="school-info" id="info">
+        <div class="container">
+            <h2 class="section-title">School Information</h2>
+            
+            <div class="info-grid">
+                <div>
+                    <!-- REPLACE WITH YOUR IMAGE -->
+                    <img src="images/school-info.jpg" alt="School Information" class="info-image">
+                </div>
+                <div class="info-details">
+                    <h2>Essential Details</h2>
+                    <div class="info-item">
+                        <strong>Founded:</strong>
+                        <span>2018</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>School Hours:</strong>
+                        <span>8:00 AM - 3:00 PM</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Class Size:</strong>
+                        <span>Maximum 20 students per class</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Age Range:</strong>
+                        <span>3-11 years old</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Accreditation:</strong>
+                        <span>Fully accredited institution</span>
+                    </div>
+                    <p>BEST LEAD Private School is committed to maintaining high standards of education while providing a warm, supportive environment where every child can reach their full potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FACILITIES SECTION ========== -->
+    <section class="facilities" id="facilities">
+        <div class="container">
+            <h2 class="section-title">Our Facilities</h2>
+            <p class="section-subtitle">Modern, safe, and inspiring spaces designed for optimal learning and development.</p>
+            
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">🏫</div>
+                    <h3>Modern Classrooms</h3>
+                    <p>Bright, spacious classrooms equipped with the latest educational technology and comfortable furniture.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">📚</div>
+                    <h3>Library</h3>
+                    <p>Extensive collection of age-appropriate books and digital resources to foster a love of reading.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🔬</div>
+                    <h3>Science Lab</h3>
+                    <p>Hands-on laboratory for experiments and discovery-based learning experiences.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">💻</div>
+                    <h3>Computer Lab</h3>
+                    <p>Modern computers and technology tools for digital literacy and coding education.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">⚽</div>
+                    <h3>Sports Facilities</h3>
+                    <p>Indoor and outdoor play areas, sports equipment, and spaces for physical education.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🎨</div>
+                    <h3>Art Studio</h3>
+                    <p>Dedicated space for creative arts, crafts, and artistic expression.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🎵</div>
+                    <h3>Music Room</h3>
+                    <p>Instruments and equipment for music education and performances.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🍽️</div>
+                    <h3>Cafeteria</h3>
+                    <p>Clean, modern dining area serving nutritious meals and snacks.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🏥</div>
+                    <h3>Health Center</h3>
+                    <p>On-site medical support with trained staff for student health and safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you! Reach out to learn more about BEST LEAD Private School.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <strong>Address</strong>
+                        <p>123 Education Street, Learning City, ST 12345</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>(555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>
+                        <strong>Email</strong>
+                        <p>info@bestleadschool.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🕐</div>
+                    <div>
+                        <strong>Office Hours</strong>
+                        <p>Monday - Friday: 7:30 AM - 4:30 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-cta">
+                <h2>Ready to Join Our Community?</h2>
+                <p>Schedule a tour of our facilities and meet our dedicated staff. We look forward to welcoming your family to BEST LEAD!</p>
+                <a href="tel:5551234567" class="btn-primary">Call Now to Schedule a Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="footer-section footer-about">
+                    <h4>BEST LEAD Private School</h4>
+                    <p>Excellence in Education Since 2018. Committed to nurturing young minds and building tomorrow's leaders through quality education in a safe, engaging environment.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#programs">Preschool (Ages 3-5)</a></li>
+                        <li><a href="#programs">Elementary (Ages 6-11)</a></li>
+                        <li><a href="#programs">After School</a></li>
+                        <li><a href="#programs">Summer Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><a href="tel:5551234567">Phone: (555) 123-4567</a></li>
+                        <li><a href="mailto:info@bestleadschool.com">Email: info@bestleadschool.com</a></li>
+                        <li>123 Education Street<br>Learning City, ST 12345</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 BEST LEAD Private School. All rights reserved.</p>
+                <p>Designed with ❤️ for excellence in education</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCROLL TO TOP BUTTON ========== -->
+    <div class="scroll-top" id="scrollTop">↑</div>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // Scroll to top button functionality
+        const scrollTopBtn = document.getElementById('scrollTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth scroll for all anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation on scroll for elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.program-card, .testimonial-card, .facility-card, .rule-category, .commitment-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
+
